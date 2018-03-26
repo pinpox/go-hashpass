@@ -21,7 +21,7 @@ Taken from the Hashpass Readme:
 
 This is just a client that implements the used algorithm, yielding the same results. It is implemented as CLI tool and can be used without any browser.
 
-#Usage 
+# Usage 
 ```
 NAME:
    go-hashpass - A hashpass-compatible stateless password manager/genrator
