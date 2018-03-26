@@ -21,7 +21,8 @@ Taken from the Hashpass Readme:
 
 This is just a client that implements the used algorithm, yielding the same results. It is implemented as CLI tool and can be used without any browser.
 
-
+#Usage 
+```
 NAME:
    go-hashpass - A hashpass-compatible stateless password manager/genrator
 
@@ -43,3 +44,4 @@ GLOBAL OPTIONS:
    --nostrip, --ns           Don't extract domain if a complete link is provided
    --vesion value, -v value  The password version
    --help, -h                show help
+```
