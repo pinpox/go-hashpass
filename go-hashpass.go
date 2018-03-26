@@ -11,6 +11,7 @@ import (
 	"time"
 )
 
+// Compute the password from given input
 func generatePass(key string, input ...string) string {
 
 	data := ""
@@ -30,6 +31,7 @@ func generatePass(key string, input ...string) string {
 	return password
 }
 
+// Returns the host of a url, adding http as default protocol if none is provided
 func stripUrl(link string) string {
 
 	u, err := url.Parse(link)
@@ -69,6 +71,7 @@ func main() {
 		},
 	}
 
+	// Define avaitible flags
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:        "key, k",
@@ -105,6 +108,7 @@ func main() {
 				mUrl = stripUrl(mUrl)
 			}
 
+			// Check if a password version was provided
 			if version != "" {
 				fmt.Println(generatePass(key, mUrl, version))
 			} else {
