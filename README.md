@@ -1,4 +1,12 @@
 # go-hashpass
+
+
+[![Build Status](https://travis-ci.org/binaryplease/go-hashpass.svg?branch=master)](https://travis-ci.org/binaryplease/go-hashpass)
+[![GoDoc](https://godoc.org/github.com/binaryplease/go-hashpass?status.svg)](https://godoc.org/github.com/binaryplease/go-hashpass)
+[![codebeat](https://codebeat.co/badges/0a8f30aa-f975-404b-b878-5fab3ae1cc5f)](https://codebeat.co/projects/github-com-urfave-cli)
+[![Go Report Card](https://goreportcard.com/badge/binaryplease/go-hashpass)](https://goreportcard.com/report/binaryplease/go-hashpass)
+[![top level coverage](https://gocover.io/_badge/github.com/binaryplease/go-hashpass?0 "top level coverage")](http://gocover.io/github.com/binaryplease/go-hashpass) /
+[![altsrc coverage](https://gocover.io/_badge/github.com/binaryplease/go-hashpass/altsrc?0 "altsrc coverage")](http://gocover.io/github.com/binaryplease/go-hashpass/altsrc)
 A hashpass (https://github.com/stepchowfun/hashpass) compatible password manager
 
 Taken from the Hashpass Readme:
